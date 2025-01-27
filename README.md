@@ -15,13 +15,68 @@ https://drive.google.com/file/d/1IKuDizVapw-hyktwfpoAoaGtHtTNHfd0/view?usp=shari
 Transactions.csv :
 https://drive.google.com/file/d/1saEqdbBB-vuk2hxoAf4TzDEsykdKlzbF/view?usp=sharing
 
+Files Description:
+
+1. Customers.csv
+   
+○ CustomerID: Unique identifier for each customer.
+○ CustomerName: Name of the customer.
+○ Region: Continent where the customer resides.
+○ SignupDate: Date when the customer signed up.
+
+2. Products.csv
+   
+○ ProductID: Unique identifier for each product.
+○ ProductName: Name of the product.
+○ Category: Product category.
+○ Price: Product price in USD.
+
+3. Transactions.csv
+   
+○ TransactionID: Unique identifier for each transaction.
+○ CustomerID: ID of the customer who made the transaction.
+○ ProductID: ID of the product sold.
+○ TransactionDate: Date of the transaction.
+○ TotalValue: Total value of the transaction.
+○ Price: Price of the product sold.
+
+Assignment Tasks:
+
+Task 1: Exploratory Data Analysis (EDA) and Business Insights
+
+1. Perform EDA on the provided dataset.
+2. Derive at least 5 business insights from the EDA.
+○ Write these insights in short point-wise sentences (maximum 100 words per
+insight).
+
+Task 2: Lookalike Model
+
+Build a Lookalike Model that takes a user's information as input and recommends 3 similar
+customers based on their profile and transaction history. The model should:
+● Use both customer and product information.
+● Assign a similarity score to each recommended customer.
+
+Task 3: Customer Segmentation / Clustering
+
+Perform customer segmentation using clustering techniques. Use both profile information
+(from Customers.csv) and transaction information (from Transactions.csv).
+● You have the flexibility to choose any clustering algorithm and any number of clusters in
+between(2 and 10)
+● Calculate clustering metrics, including the DB Index(Evaluation will be done on this).
+● Visualise your clusters using relevant plots.
+
 Project Overview:
 The repository contains the following files:
 
 Anushka_Gupta_EDA.ipynb: A Jupyter notebook containing the EDA analysis and model implementation for the assignment.
+
 Anushka_Gupta_EDA.pdf: A PDF version of the EDA notebook for easier readability and sharing.
+
 Anushka_Gupta_Lookalike.ipynb: A Jupyter notebook showcasing the Lookalike for the dataset.
+
 Anushka_Gupta_Lookalike.csv: A CSV file containing the dataset used for the analysis.
+
 Anushka_Gupta_Clustering.ipynb: A Jupyter notebook for additional analysis or tasks related to the Clustering model.
+
 Anushka_Gupta_Clustering.pdf: A PDF version of the clustering notebook for easier readability and sharing.
 
